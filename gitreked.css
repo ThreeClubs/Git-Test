@@ -1,45 +1,45 @@
 * {
-    box-sizing: border-box;
-    margin: 0 auto;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 body {
-    background-color: azure;
+  background-color: azure;
 }
 
 .header {
-    background: linear-gradient(360deg, rgb(156, 253, 253), rgb(0, 175, 175));
-    padding: 25px;
-    box-shadow: 3px 3px 5px rgb(37, 122, 122);
+  background: linear-gradient(360deg, rgb(156, 253, 253), rgb(0, 175, 175));
+  padding: 25px;
+  box-shadow: 3px 3px 5px rgb(37, 122, 122);
 }
 
 h1 {
-    color: red;
-    font-size: 6rem;
-    text-shadow: 1px 1px black;
- 
+  color: red;
+  font-size: 6rem;
+  text-shadow: 1px 1px black;
 }
 
 h2 {
-    color: darkred;
-    font-size: 3rem;
-    text-shadow: 1px 1px 1px azure;
+  color: darkred;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px azure;
 }
 
-h1, h2 {
-    text-align: center;
-    font-weight: 700;
-      
+h1,
+h2 {
+  text-align: center;
+  font-weight: 700;
 }
 
 #icon {
-    animation-name: flip;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  animation-name: flip;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes flip {
-   from {transform: rotateY(360deg);}
+  to {
+    transform: rotateY(360deg);
+  }
 }
-
