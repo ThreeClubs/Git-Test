@@ -8,7 +8,9 @@ body {
 }
 
 .header {
-    background-color: aqua;
+    background-color: rgb(140, 236, 236);
+    padding: 25px;
+    box-shadow: 3px 3px 5px rgb(112, 235, 235);
 }
 
 h1 {
