@@ -34,7 +34,7 @@ h1, h2 {
 
 #icon {
     animation-name: flip;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
