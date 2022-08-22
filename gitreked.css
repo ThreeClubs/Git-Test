@@ -8,9 +8,9 @@ body {
 }
 
 .header {
-    background-color: rgb(140, 236, 236);
+    background: linear-gradient(360deg, rgb(156, 253, 253), rgb(0, 175, 175));
     padding: 25px;
-    box-shadow: 3px 3px 5px rgb(112, 235, 235);
+    box-shadow: 3px 3px 5px rgb(37, 122, 122);
 }
 
 h1 {
@@ -31,3 +31,15 @@ h1, h2 {
     font-weight: 700;
       
 }
+
+#icon {
+    animation-name: flip;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flip {
+   from {transform: rotateY(360deg);}
+}
+
